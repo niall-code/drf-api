@@ -38,7 +38,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '8000-niallcode-drfapi-muxct2dalhf.ws.codeinstitute-ide.net',
 ]
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-niallcode-drfapi-muxct2dalhf.ws.codeinstitute-ide.net',
+]
 
 # Application definition
 
