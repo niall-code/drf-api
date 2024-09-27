@@ -37,8 +37,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    'localhost',
+    '8000-niallcode-drfapi-muxct2dalhf.ws.codeinstitute-ide.net',
     'drf-socials-demo-2c6f48eda9f1.herokuapp.com',
+]
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-niallcode-drfapi-muxct2dalhf.ws.codeinstitute-ide.net',
 ]
 
 # Application definition
