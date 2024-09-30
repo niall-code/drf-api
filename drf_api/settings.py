@@ -43,6 +43,7 @@ ALLOWED_HOSTS = [
 ]
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-niallcode-drfapi-muxct2dalhf.ws.codeinstitute-ide.net',
+    'https://3000-niallcode-moments-en4voaqm7l6.ws.codeinstitute-ide.net/',
 ]
 
 # Application definition
